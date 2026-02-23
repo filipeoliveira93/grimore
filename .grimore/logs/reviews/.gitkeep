@@ -1,0 +1,6 @@
+Este diretório armazena os relatórios de revisão de código emitidos pelo `sdd-quality-reviewer`.
+
+Formato do arquivo: `[Task_ID]-REVIEW.md`
+Exemplo: `MT01-task-1-REVIEW.md`
+
+Consulte `.agent/skills/sdd-quality-reviewer/references/template-veredito.md` para o template obrigatório.

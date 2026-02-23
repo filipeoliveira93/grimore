@@ -1,0 +1,3 @@
+Este diretório armazena logs arquivados após o fechamento de marcos pelo `sdd-release-manager`.
+
+Os arquivos são movidos de `executions/` e `reviews/` para cá após a release ser consolidada no CHANGELOG.md.

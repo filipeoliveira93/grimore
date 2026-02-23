@@ -1,0 +1,31 @@
+# Sistema Operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs locais
+*.log
+npm-debug.log*
+
+# Variáveis de ambiente (nunca commitar secretos)
+.env
+.env.local
+.env.*.local
+
+# Pasta de contexto do agente de IA (gerada localmente)
+.gemini/
+
+# Pasta de contexto do projeto SDD (COMMITAR — documentação viva do projeto)
+# .sdd-toolkit/   ← descomente esta linha se quiser ignorar

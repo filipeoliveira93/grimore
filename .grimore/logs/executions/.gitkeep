@@ -1,0 +1,6 @@
+Este diretório armazena os logs de execução das tarefas implementadas pelo `sdd-implementation-coder`.
+
+Formato do arquivo: `[Task_ID].md`
+Exemplo: `MT01-task-1.md`
+
+Consulte `.agent/skills/sdd-implementation-coder/references/template-execucao.md` para o template obrigatório.
