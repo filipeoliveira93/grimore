@@ -1,7 +1,7 @@
 ﻿# 📊 Estado: [Nome da Funcionalidade]
 
 > **Última atualização:** —
-> Atualizado pelo `implementation-coder` após cada tarefa.
+> Atualizado pelo `gmr-implementation-coder` após cada tarefa.
 
 ---
 
@@ -48,4 +48,4 @@
 
 | Data | Evento | Por |
 |------|--------|-----|
-| — | Feature criada | feature-manager |
+| — | Feature criada | gmr-feature-manager |

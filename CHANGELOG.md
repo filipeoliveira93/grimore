@@ -1,6 +1,6 @@
 ﻿# 📦 Changelog
 
-> Gerado e mantido pelo `release-manager`.
+> Gerado e mantido pelo `gmr-release-manager`.
 > Segue o padrão [Keep a Changelog](https://keepachangelog.com/pt-BR/).
 
 ---

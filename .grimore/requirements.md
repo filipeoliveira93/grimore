@@ -1,6 +1,6 @@
 ﻿# 📝 Requisitos do Projeto
 
-> **Gerado por:** `requirements-engineer`
+> **Gerado por:** `gmr-requirements-engineer`
 > **Status:** 🚧 Em definição
 
 ---

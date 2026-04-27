@@ -10,17 +10,17 @@ Esta pasta é o **cérebro do seu projeto Grimore**. Ela é criada e gerenciada 
 
 | Arquivo/Pasta | Criado por | Descrição |
 |---------------|-----------|-----------|
-| `project.md` | `scope-architect` | Escopo, visão, "Estrela Guia" e fronteiras do projeto |
-| `requirements.md` | `requirements-engineer` | Stack técnico, requisitos funcionais (FR) e não-funcionais (NFR) |
+| `project.md` | `gmr-scope-architect` | Escopo, visão, "Estrela Guia" e fronteiras do projeto |
+| `requirements.md` | `gmr-requirements-engineer` | Stack técnico, requisitos funcionais (FR) e não-funcionais (NFR) |
 | `context.md` | Qualquer agente | Decisões arquiteturais, aprendizados e estado global |
-| `rules/business-rules.md` | `business-rule-extractor` | Regras de negócio extraídas do código |
-| `features/[slug]/` | `feature-manager` | Pasta por feature com marcos e tarefas |
-| `features/[slug]/index.md` | `feature-manager` | Visão geral: escopo, requisitos mapeados, aceite |
-| `features/[slug]/state.md` | `feature-manager` | Status atual, bloqueios e próximas ações |
-| `features/[slug]/MT01.md` | `feature-manager` | Marco executável com tarefas e Definition of Done |
-| `logs/executions/` | `implementation-coder` | Logs de execução de cada tarefa |
-| `logs/reviews/` | `quality-reviewer` | Relatórios de revisão de código |
-| `logs/archive/` | `release-manager` | Logs arquivados de marcos fechados |
+| `rules/business-rules.md` | `gmr-business-rule-extractor` | Regras de negócio extraídas do código |
+| `features/[slug]/` | `gmr-feature-manager` | Pasta por feature com marcos e tarefas |
+| `features/[slug]/index.md` | `gmr-feature-manager` | Visão geral: escopo, requisitos mapeados, aceite |
+| `features/[slug]/state.md` | `gmr-feature-manager` | Status atual, bloqueios e próximas ações |
+| `features/[slug]/MT01.md` | `gmr-feature-manager` | Marco executável com tarefas e Definition of Done |
+| `logs/executions/` | `gmr-implementation-coder` | Logs de execução de cada tarefa |
+| `logs/reviews/` | `gmr-quality-reviewer` | Relatórios de revisão de código |
+| `logs/archive/` | `gmr-release-manager` | Logs arquivados de marcos fechados |
 
 ---
 
@@ -30,34 +30,34 @@ Esta pasta é o **cérebro do seu projeto Grimore**. Ela é criada e gerenciada 
 Projeto Novo               Projeto Existente
      │                           │
      ▼                           ▼
-scope-architect      brownfield-setup
+gmr-scope-architect      gmr-brownfield-setup
      │                           │
      └───────────┬───────────────┘
                  ▼
-     requirements-engineer
+     gmr-requirements-engineer
                  │
                  ▼
-         feature-manager
+         gmr-feature-manager
                  │
          ┌───────┴────────┐
          ▼                ▼
-  sdd-implementation   test-engineer
+  sdd-implementation   gmr-test-engineer
        -coder               │
          │                  │
          └───────┬──────────┘
                  ▼
-       quality-reviewer
+       gmr-quality-reviewer
                  │
                  ▼
-       release-manager
+       gmr-release-manager
 ```
 
 ---
 
 ## Esta pasta não existe ainda?
 
-Normal! Ela é criada automaticamente quando você inicia o fluxo Grimore com o `scope-architect`:
+Normal! Ela é criada automaticamente quando você inicia o fluxo Grimore com o `gmr-scope-architect`:
 
 ```
-Use a skill scope-architect para iniciar meu projeto
+Use a skill gmr-scope-architect para iniciar meu projeto
 ```

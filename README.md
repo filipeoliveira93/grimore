@@ -42,50 +42,50 @@ Veja o [GETTING-STARTED.md](./GETTING-STARTED.md) para um guia detalhado por fer
 
 | Skill | Função |
 |-------|--------|
-| `scope-architect` | Define o escopo e a visão do projeto em `project.md` |
-| `requirements-engineer` | Entrevista o stack técnico e gera `requirements.md` |
-| `stack-interview` | Protocolo de entrevista para definição de stack |
-| `brownfield-setup` | Configura projetos existentes na estrutura Grimore |
+| `gmr-scope-architect` | Define o escopo e a visão do projeto em `project.md` |
+| `gmr-requirements-engineer` | Entrevista o stack técnico e gera `requirements.md` |
+| `gmr-stack-interview` | Protocolo de entrevista para definição de stack |
+| `gmr-brownfield-setup` | Configura projetos existentes na estrutura Grimore |
 
 ### ⚡ Agentes de Execução
 
 | Skill | Função |
 |-------|--------|
-| `feature-manager` | Gerencia features, marcos e tarefas |
-| `implementation-coder` | Implementa código de produção seguindo os marcos |
-| `feature-templates` | Gera templates padrão de features/milestones |
+| `gmr-feature-manager` | Gerencia features, marcos e tarefas |
+| `gmr-implementation-coder` | Implementa código de produção seguindo os marcos |
+| `gmr-feature-templates` | Gera templates padrão de features/milestones |
 
 ### 🧠 Agentes de Especialidade
 
 | Skill | Função |
 |-------|--------|
-| `backend-architect` | Arquitetura de APIs, banco de dados, autenticação |
-| `frontend-architect` | Componentes UI, sistemas de design, acessibilidade |
-| `frontend-designer` | Design premium, tipografia, animações, UI/UX visual |
-| `mcp-builder` | Criação de servidores MCP (Model Context Protocol) |
-| `prompt-architect` | Criação e refinamento de system prompts e agentes |
-| `doc-coauthor` | Co-autoria de documentação técnica estruturada |
-| `design-system-extractor` | Engenharia reversa de design systems |
-| `business-rule-extractor` | Extração de regras de negócio do código |
+| `gmr-backend-architect` | Arquitetura de APIs, banco de dados, autenticação |
+| `gmr-frontend-architect` | Componentes UI, sistemas de design, acessibilidade |
+| `gmr-frontend-designer` | Design premium, tipografia, animações, UI/UX visual |
+| `gmr-mcp-builder` | Criação de servidores MCP (Model Context Protocol) |
+| `gmr-prompt-architect` | Criação e refinamento de system prompts e agentes |
+| `gmr-doc-coauthor` | Co-autoria de documentação técnica estruturada |
+| `gmr-design-system-extractor` | Engenharia reversa de design systems |
+| `gmr-business-rule-extractor` | Extração de regras de negócio do código |
 
 ### 🛡️ Agentes de Qualidade
 
 | Skill | Função |
 |-------|--------|
-| `quality-reviewer` | Revisão de código contra critérios de aceite |
-| `test-engineer` | TDD, testes unitários, integração e E2E |
-| `webapp-testing` | Testes de UI com Playwright |
-| `security-auditor` | Auditoria OWASP Top 10 |
-| `pentester-expert` | Testes de invasão e PoC de exploits |
-| `release-manager` | Changelog, arquivamento e gestão de releases |
+| `gmr-quality-reviewer` | Revisão de código contra critérios de aceite |
+| `gmr-test-engineer` | TDD, testes unitários, integração e E2E |
+| `gmr-webapp-testing` | Testes de UI com Playwright |
+| `gmr-security-auditor` | Auditoria OWASP Top 10 |
+| `gmr-pentester-expert` | Testes de invasão e PoC de exploits |
+| `gmr-release-manager` | Changelog, arquivamento e gestão de releases |
 
 ### 🔧 Utilitários
 
 | Skill | Função |
 |-------|--------|
-| `detect-manifest` | Detecta stack do projeto (package.json, go.mod, etc.) |
-| `handover-protocol` | Protocolo de passagem de bastão entre agentes |
-| `skill-creator` | Cria novas skills seguindo as melhores práticas |
+| `gmr-detect-manifest` | Detecta stack do projeto (package.json, go.mod, etc.) |
+| `gmr-handover-protocol` | Protocolo de passagem de bastão entre agentes |
+| `gmr-skill-creator` | Cria novas skills seguindo as melhores práticas |
 
 ---
 
@@ -114,12 +114,12 @@ Após iniciar o fluxo Grimore, é criada a pasta `.grimore/` no seu projeto:
 ## 🔄 Fluxo de Desenvolvimento Grimore
 
 ```
-1. /scope-architect   → Define project.md (O QUÊ?)
-2. /requirements-engineer → Define requirements.md (COMO?)
-3. /feature-manager   → Cria features e milestones
-4. /implementation-coder → Implementa cada tarefa
-5. /quality-reviewer  → Revisa e valida
-6. /release-manager   → Fecha o marco e gera changelog
+1. /gmr-scope-architect   → Define project.md (O QUÊ?)
+2. /gmr-requirements-engineer → Define requirements.md (COMO?)
+3. /gmr-feature-manager   → Cria features e milestones
+4. /gmr-implementation-coder → Implementa cada tarefa
+5. /gmr-quality-reviewer  → Revisa e valida
+6. /gmr-release-manager   → Fecha o marco e gera changelog
 ```
 
 ---

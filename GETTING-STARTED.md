@@ -32,15 +32,15 @@ cp -r caminho/para/grimore/stand-alone/.agent ./
 As skills aparecem automaticamente no contexto do assistente. Basta invocar pelo nome:
 
 ```
-Use a skill scope-architect para definir o escopo do meu projeto.
+Use a skill gmr-scope-architect para definir o escopo do meu projeto.
 ```
 
 ou diretamente via slash command (se configurado):
 
 ```
-/scope-architect
-/feature-manager
-/implementation-coder
+/gmr-scope-architect
+/gmr-feature-manager
+/gmr-implementation-coder
 ```
 
 ---
@@ -59,7 +59,7 @@ O Claude com o sistema de **Projects** ou o **Cursor** com `.cursorrules` podem 
 Inclua no contexto do seu assistente uma instrução como:
 
 ```
-Leia e siga as instruções em .agent/skills/scope-architect/SKILL.md
+Leia e siga as instruções em .agent/skills/gmr-scope-architect/SKILL.md
 ```
 
 ---
@@ -90,7 +90,7 @@ Após instalar as skills, siga este fluxo para um novo projeto:
 ### Passo 1 — Definir o Escopo
 
 ```
-Use a skill scope-architect
+Use a skill gmr-scope-architect
 ```
 
 O agente irá:
@@ -101,7 +101,7 @@ O agente irá:
 ### Passo 2 — Definir Requisitos
 
 ```
-Use a skill requirements-engineer
+Use a skill gmr-requirements-engineer
 ```
 
 O agente irá:
@@ -112,7 +112,7 @@ O agente irá:
 ### Passo 3 — Planejar Features
 
 ```
-Use a skill feature-manager para criar a feature [nome da feature]
+Use a skill gmr-feature-manager para criar a feature [nome da feature]
 ```
 
 O agente irá:
@@ -122,29 +122,29 @@ O agente irá:
 ### Passo 4 — Implementar
 
 ```
-Use a skill implementation-coder para executar MT01-T01
+Use a skill gmr-implementation-coder para executar MT01-T01
 ```
 
 ### Passo 5 — Revisar
 
 ```
-Use a skill quality-reviewer para revisar MT01-T01
+Use a skill gmr-quality-reviewer para revisar MT01-T01
 ```
 
 ### Passo 6 — Fechar o Marco
 
 ```
-Use a skill release-manager para fechar o MT01
+Use a skill gmr-release-manager para fechar o MT01
 ```
 
 ---
 
 ## Dicas de Uso
 
-- **Projetos existentes?** Use `brownfield-setup` para integrar sem destruir o que já existe.
-- **Precisa de testes?** Chame `test-engineer` após cada implementação.
-- **Auditoria de segurança?** `security-auditor` antes do release.
-- **Criar novas skills?** Use `skill-creator` para expandir o toolkit.
+- **Projetos existentes?** Use `gmr-brownfield-setup` para integrar sem destruir o que já existe.
+- **Precisa de testes?** Chame `gmr-test-engineer` após cada implementação.
+- **Auditoria de segurança?** `gmr-security-auditor` antes do release.
+- **Criar novas skills?** Use `gmr-skill-creator` para expandir o toolkit.
 
 ---
 
@@ -153,14 +153,14 @@ Use a skill release-manager para fechar o MT01
 ```
 .agent/
 └── skills/
-    ├── scope-architect/
+    ├── gmr-scope-architect/
     │   └── SKILL.md
-    ├── requirements-engineer/
+    ├── gmr-requirements-engineer/
     │   └── SKILL.md
-    ├── feature-manager/
+    ├── gmr-feature-manager/
     │   └── SKILL.md
-    ├── ... (24 skills no total)
-    └── skill-creator/
+    ├── ... (28 skills no total)
+    └── gmr-skill-creator/
         ├── SKILL.md
         └── scripts/
 ```

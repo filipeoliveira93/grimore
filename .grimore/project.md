@@ -1,6 +1,6 @@
 ﻿# 🏛️ Escopo do Projeto
 
-> **Gerado por:** `scope-architect`
+> **Gerado por:** `gmr-scope-architect`
 > **Status:** 🚧 Em definição
 
 ---

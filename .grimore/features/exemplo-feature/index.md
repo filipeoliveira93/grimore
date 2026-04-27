@@ -1,6 +1,6 @@
 ﻿# 🚀 Funcionalidade: [Nome da Funcionalidade]
 
-> **Gerado por:** `feature-manager`
+> **Gerado por:** `gmr-feature-manager`
 > **Slug:** `[feature-slug]`
 > **Status:** ⏳ Não Iniciado
 
